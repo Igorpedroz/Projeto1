@@ -1,0 +1,58 @@
+ /* =========================
+   TEXTO (parágrafos e listas)
+   ========================= */
+
+.reveal .slides section p,
+.reveal .slides section li {
+  text-align: justify;
+}
+
+
+/* =========================
+   TÍTULOS DOS SLIDES
+   (mantém centralizado e sem CAPS LOCK)
+   ========================= */
+
+.reveal section h1,
+.reveal section h2,
+.reveal section h3,
+.reveal section h4,
+.reveal section h5,
+.reveal section h6 {
+  text-transform: none;   /* remove CAPS LOCK */
+  text-align: center;     /* mantém centralizado */
+}
+
+
+/* =========================
+   SLIDE DE TÍTULO (capa)
+   ========================= */
+
+.reveal .title-slide h1,
+.reveal .title-slide h2,
+.reveal .title-slide h3 {
+  text-align: center;
+  text-transform: none;
+}
+
+
+/* =========================
+   DATA / METADADOS DO CABEÇALHO
+   ========================= */
+
+.reveal .date,
+.reveal .quarto-title-meta-date,
+.reveal .title-slide .date {
+  text-align: center !important;
+  width: 100%;
+  display: block;
+}
+
+
+/* =========================
+   OPCIONAL: MELHOR LEITURA
+   ========================= */
+
+.reveal {
+  font-family: Arial, sans-serif;
+}
